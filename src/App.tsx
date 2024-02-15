@@ -13,7 +13,7 @@ function App() {
       </header>
       <main>
         <MainTitle />
-        <LandingPage></LandingPage>
+        {/* <LandingPage></LandingPage> */}
         <i className="bi bi-rocket text-text-default fs-1"></i>
       </main>
       <footer>
