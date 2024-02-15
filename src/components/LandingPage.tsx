@@ -58,16 +58,14 @@ const LandingPage = () => {
       <Row className="justify-content-center">
         <Col xs={12} md={8}>
           <Row className="justify-content-center">
-            {spaceArticles.results.map((singleArticle) => (
-              <Col key={singleArticle.id} xs={12} md={4}>
+            {spaceArticles.map((article: Article) => (
+              <Col xs={12} md={4}>
                 <Card>
-                  <Card.Img variant="top" src={singleArticle.image_url} />
+                  <Card.Img variant="top" src={article.image_url} />
                   <Card.Body>
-                    <Card.Title>{singleArticle.title}</Card.Title>
-                    <Card.Text>{singleArticle.summary}</Card.Text>
-                    <Button variant="primary" href={singleArticle.url}>
-                      Read More
-                    </Button>
+                    <Card.Title>{article.title}</Card.Title>
+                    <Card.Text>{article.summary}</Card.Text>
+                    <Button variant="primary">Read More</Button>
                   </Card.Body>
                 </Card>
               </Col>
