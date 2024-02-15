@@ -1,0 +1,18 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "./_partials/variables";
+//ADDING COLORS to the original palette
+
+$theme-colors: map-merge($theme-colors, $custom-palette);
+
+// FONTS
+
+$font-family-base: $slab-font-family;
+
+//ADDING ICONS//
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+@import "~bootstrap/scss/bootstrap.scss";
+@import "./_partials/variables";
+@import "./_partials/mixins";
+@import "./_partials/index";

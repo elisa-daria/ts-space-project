@@ -1,0 +1,41 @@
+body,
+html,
+#root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex-grow: 1;
+  height: 100%;
+  background-color: $d;
+}
+.main-title {
+  margin: 0;
+  background-color: $c;
+  color: $b;
+  font-family: $retro-add-font-family;
+  height: 10em;
+  padding: 0.3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-title h1 {
+  font-size: 4em;
+}
+.main-title p {
+  font-size: 1.5em;
+}
+header,
+footer {
+  background-color: $e;
+}
+
+i.bi.bi-rocket {
+  position: absolute;
+  @include rocketLaunch;
+  bottom: 3px;
+  right: 20px;
+}

@@ -1,0 +1,23 @@
+//FONTS
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100..700&display=swap");
+$slab-font-family: "Josefin Slab", serif;
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+$retro-add-font-family: "Lobster", sans-serif;
+
+//COLORS:
+
+$a: #0c0266;
+$b: #774392;
+$c: #2f96b7;
+$d: #ccbdb6;
+$e: #3c245b;
+
+$custom-palette: (
+  "head-foot-bg": $e,
+  "text-default": $a,
+  "primary": $c,
+  "secondary": $b,
+  "bg": $d,
+);
